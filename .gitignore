@@ -1,0 +1,28 @@
+# --- Qt Creator specific ---
+*.pro.user
+*.pro.user.*
+*.qmake.stash
+build-*/
+*.autosave
+
+# --- C++ Compiled files ---
+*.o
+*.obj
+*.so
+*.dll
+*.dylib
+# *.exe
+# 如果你想保留 FreeCharts_Release 里的 exe 用于测试，可以把上面 *.exe 注释掉
+# 或者强制添加: !aim/FreeCharts_Release/*.exe
+
+# --- VS Code ---
+.vscode/
+# 如果想共享 launch.json 可以只忽略 .vscode 其他文件，但在学生项目中直接忽略最省事
+
+# --- OS specific ---
+.DS_Store
+Thumbs.db
+
+# --- Temporary files ---
+*.log
+*.tmp
